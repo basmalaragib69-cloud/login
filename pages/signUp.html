@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../index.html">
+    <link rel="stylesheet" href="home.html">
+    <link rel="stylesheet" href="../css/signUp.css">
+    <title>sign up</title>
+</head>
+<body class="bg-main">
+
+    <div class="col-6 mx-auto p-5 mt-5 text-center bg-main box-shadow shadow">
+        <h1 class="text-color">Smart Login System</h1>
+        <form>
+            <input id="name" type="text" class="form-control my-3 bg-transparent text-white" placeholder="Enter your name" data-regex="[a-zA-z]{2}">
+            <input id="email" type="email" class="form-control my-3 bg-transparent text-white" placeholder="Enter your email" data-regex="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+            <input id="password" type="password" class="form-control mb-3 bg-transparent text-white" placeholder="Enter your password" data-regex="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$">
+            <p id="alertMessage" class="d-none text-success"></p>
+            <button id="Button">Sign Up</button>
+        </form>
+        <p class="text-white">Don’t have an account? <a href="../index.html">Sign In</a></p>
+    </div>
+    
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script  src="../js/signUp.js"></script>
+</body>
+</html>

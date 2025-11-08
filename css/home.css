@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(36, 53, 63);
+}
+.navbar-brand{
+    color: white;
+
+}
+
+brand:hover {
+  color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+.button{
+border-color: orange;
+ background-color:rgb(36, 53, 63);
+ 
+}
+.button:hover{
+    background-color: orange;
+}
+.navbar-nav .nav-link.active{
+    color: white;
+}
+
+
+.group{
+    margin-top: 50%;
+}
+h1{
+    color :rgb(23, 162, 184) 
+}
